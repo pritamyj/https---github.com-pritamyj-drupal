@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+{{ attach_library('mytheme/navbar') }}
+
+    <header class="header"> 
+        {{ page.header }} 
+        <nav class="menu">
+            {{ page.menu }}  
+        </nav> 
+        <div class="heading"> 
+            <h1>{{ site_name }}</h1> 
+        </div> 
+    </header> 
+
+    <main class="main"> 
+        <div class="content" style="width:100%">
+            {{ page.content }}
+        </div> 
+        {% if page.sidebar %}
+        <div class="sidebar"> 
+            {{ page.sidebar }}
+        </div> 
+        {% endif %} 
+    </main>
+
+    <footer aria-label="Site footer" class="footer" id="footer" role="contentinfo">
+   <div class="footer--top">
+     {{ page.footer_first }}
+     {{ page.footer_second }}
+     {{ page.footer_third }}
+   </div>
+   <div class="footer--bottom">
+       {{ page.footer_bottom }}
+   </div>
+</footer>
+
+</body>
+
+</html>
