@@ -181,9 +181,6 @@ footer {
         color: #fff;
         float: right; }
 
-.views-view-grid .views-row .views-col {
-  margin: 5px; }
-
 .footer--top {
   display: flex;
   justify-content: space-between;
@@ -233,3 +230,40 @@ footer {
   margin: -20px;
   text-align: center;
   background: #181818; }
+
+.views-view-grid .views-row .views-col {
+  margin: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); }
+  .views-view-grid .views-row .views-col .views-field-title .field-content a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold; }
+  .views-view-grid .views-row .views-col .views-field {
+    padding: 0 10px;
+    margin-bottom: 10px; }
+    .views-view-grid .views-row .views-col .views-field .vote-widget--like-and-dislike {
+      margin-top: 15px; }
+  .views-view-grid .views-row .views-col .views-field-uid-1 span {
+    color: #777; }
+  .views-view-grid .views-row .views-col .views-field-view-node, .views-view-grid .views-row .views-col .views-field-field-image {
+    margin-bottom: 0; }
+  .views-view-grid .views-row .views-col .views-field-field-image {
+    padding: 0; }
+  .views-view-grid .views-row .views-col .views-field-view-node a {
+    color: #fff;
+    display: flex;
+    float: left;
+    font-size: 14px;
+    background-color: #cf7065;
+    padding: 10px 20px;
+    transition: all 0.5s ease-in;
+    width: 75px; }
+  .views-view-grid .views-row .views-col .views-field-view-node a:hover {
+    font-size: 14px;
+    color: #bd4f6c;
+    display: flex;
+    float: left;
+    border: 1px solid #bd4f6c;
+    border-top-right-radius: 20px;
+    background-color: transparent;
+    text-decoration: none; }
