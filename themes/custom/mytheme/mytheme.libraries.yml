@@ -3,6 +3,7 @@ styling:
   css:
     theme:
       css/style.css: {}
+      css/form.css: {}
 
   js:
     js/navbar.js: {}

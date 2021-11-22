@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '1965720f7d07ab01f1d8abc1a3101631ad8adf01',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -628,6 +628,15 @@
                 0 => '9.2.7',
             ),
         ),
+        'drupal/fontawesome' => array(
+            'pretty_version' => '2.19.0',
+            'version' => '2.19.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/fontawesome',
+            'aliases' => array(),
+            'reference' => '8.x-2.19',
+            'dev_requirement' => false,
+        ),
         'drupal/forum' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -635,12 +644,12 @@
             ),
         ),
         'drupal/geofield' => array(
-            'pretty_version' => '1.34.0',
-            'version' => '1.34.0.0',
+            'pretty_version' => '1.35.0',
+            'version' => '1.35.0.0',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../modules/contrib/geofield',
             'aliases' => array(),
-            'reference' => '8.x-1.34',
+            'reference' => '8.x-1.35',
             'dev_requirement' => false,
         ),
         'drupal/geofield_map' => array(
@@ -713,12 +722,12 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '1965720f7d07ab01f1d8abc1a3101631ad8adf01',
             'dev_requirement' => false,
         ),
         'drupal/like_and_dislike' => array(
@@ -735,6 +744,15 @@
             'replaced' => array(
                 0 => '9.2.7',
             ),
+        ),
+        'drupal/linkicon' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/linkicon',
+            'aliases' => array(),
+            'reference' => '8.x-1.6',
+            'dev_requirement' => false,
         ),
         'drupal/locale' => array(
             'dev_requirement' => false,
@@ -912,6 +930,15 @@
             'replaced' => array(
                 0 => '9.2.7',
             ),
+        ),
+        'drupal/smart_trim' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/smart_trim',
+            'aliases' => array(),
+            'reference' => '8.x-1.3',
+            'dev_requirement' => false,
         ),
         'drupal/smtp' => array(
             'pretty_version' => '1.0.0',
