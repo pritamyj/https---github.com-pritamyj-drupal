@@ -3,7 +3,9 @@ styling:
   css:
     theme:
       css/style.css: {}
+      css/header.css: {}
       css/form.css: {}
+      css/footer.css: {}
 
   js:
     js/navbar.js: {}

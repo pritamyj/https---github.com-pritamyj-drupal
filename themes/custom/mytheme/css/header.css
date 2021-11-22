@@ -1,0 +1,87 @@
+a, a:active, a:hover, a:visited {
+  text-decoration: none;
+  counter-reset: #000; }
+
+#block-mytheme-main-menu {
+  background-color: transparent;
+  background-image: linear-gradient(transparent, transparent);
+  padding: 27px 0px;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  transition: all 0.5s ease-in-out; }
+  #block-mytheme-main-menu ul {
+    margin-top: 2px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 20%;
+    display: inline-block; }
+    #block-mytheme-main-menu ul li {
+      padding: 10px;
+      width: 13%;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase; }
+    #block-mytheme-main-menu ul a {
+      color: #fff; }
+      #block-mytheme-main-menu ul a:hover {
+        font-size: 23px;
+        transition: 500ms; }
+
+.heading {
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px; }
+  .heading h1 {
+    margin: 0 25%;
+    color: #fff;
+    margin-top: -400px; }
+
+.header img {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+#block-mytheme-branding {
+  background-color: rgba(1, 1, 1, 0.5);
+  position: fixed;
+  width: 100%; }
+  #block-mytheme-branding a {
+    font-size: 20px;
+    color: #fff; }
+    #block-mytheme-branding a img {
+      width: 85px;
+      height: 65px;
+      overflow: hidden;
+      margin: 15px;
+      margin-bottom: 10px; }
+
+#block-banner1 {
+  margin-top: 0; }
+
+#block-mytheme-breadcrumbs {
+  display: none; }
+
+.language-switcher-language-url {
+  background-color: transparent;
+  position: fixed;
+  top: 32px;
+  width: 100%;
+  z-index: 1; }
+  .language-switcher-language-url ul {
+    margin: 0;
+    display: grid; }
+    .language-switcher-language-url ul li {
+      list-style-type: none; }
+      .language-switcher-language-url ul li a {
+        color: #fff;
+        float: right; }

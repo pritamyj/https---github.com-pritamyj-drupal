@@ -1,0 +1,77 @@
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #313131;
+  color: #fff;
+  text-align: center;
+  padding: 20px 35px;
+  bottom: 0;
+  text-align: left; }
+
+.footer--top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 65px;
+  color: #b3b3b3; }
+  .footer--top #block-mainnavigation ul {
+    list-style-type: none; }
+    .footer--top #block-mainnavigation ul li a {
+      color: #b3b3b3;
+      text-transform: uppercase; }
+      .footer--top #block-mainnavigation ul li a:hover {
+        transition: 500ms;
+        text-decoration: underline; }
+  .footer--top div {
+    width: 100%; }
+
+.footer--top .region {
+  padding: 5px; }
+
+.region-footer-first, .region-footer-second, .region-footer-third {
+  flex: 0 1 30%; }
+
+#block-mainnavigation-menu {
+  margin-left: 40px; }
+
+#block-footer1 {
+  width: 500px; }
+
+#block-footer1 h2, #block-mainnavigation h2, #block-searchform h2, .views-element-container h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 30px;
+  content: '';
+  left: 0;
+  width: 150px;
+  height: 2px; }
+
+#block-footer1 #linkicon-node-contact-inf-field-contact-info-17, #block-mainnavigation #linkicon-node-contact-inf-field-contact-info-17, #block-searchform #linkicon-node-contact-inf-field-contact-info-17, .views-element-container #linkicon-node-contact-inf-field-contact-info-17 {
+  list-style-type: none;
+  margin-left: -37px; }
+  #block-footer1 #linkicon-node-contact-inf-field-contact-info-17 li .linkicon__text, #block-mainnavigation #linkicon-node-contact-inf-field-contact-info-17 li .linkicon__text, #block-searchform #linkicon-node-contact-inf-field-contact-info-17 li .linkicon__text, .views-element-container #linkicon-node-contact-inf-field-contact-info-17 li .linkicon__text {
+    margin-left: 10px; }
+
+.fontawesome-icons {
+  display: flex; }
+  .fontawesome-icons .fontawesome-icon {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px; }
+    .fontawesome-icons .fontawesome-icon:hover {
+      background: linear-gradient(326deg, #f5363f 0%, #e86543 74%); }
+
+#block-poweredbydrupal {
+  padding: 10px;
+  margin: -45px;
+  text-align: center;
+  background: #181818; }

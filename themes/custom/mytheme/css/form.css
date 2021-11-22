@@ -3,9 +3,6 @@
   border-bottom: 4px solid #ff4584;
   width: 182px; }
 
-.form-item {
-  width: 400px; }
-
 .form-text, .form-select, .form-email, .form-textarea {
   background: transparent;
   border: 1px solid #607d8b;
@@ -19,6 +16,15 @@
   padding: 10px 20px;
   border-radius: 30px;
   width: 400px; }
+
+.form-item {
+  width: 400px; }
+
+.views-exposed-form {
+  margin-bottom: 25px; }
+
+.js-form-item {
+  margin: 5px 0; }
 
 .form-select {
   appearance: none; }
