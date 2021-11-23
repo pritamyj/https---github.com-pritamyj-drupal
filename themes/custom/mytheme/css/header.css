@@ -14,8 +14,8 @@ a, a:active, a:hover, a:visited {
   #block-mytheme-main-menu ul {
     margin-top: 2px;
     z-index: 1;
-    width: 100%;
-    padding: 0 20%;
+    width: 91%;
+    text-align: center;
     display: inline-block; }
     #block-mytheme-main-menu ul li {
       padding: 10px;
@@ -62,8 +62,7 @@ a, a:active, a:hover, a:visited {
       width: 85px;
       height: 65px;
       overflow: hidden;
-      margin: 15px;
-      margin-bottom: 10px; }
+      margin: 15px 15px 10px 40px; }
 
 #block-banner1 {
   margin-top: 0; }
@@ -75,13 +74,35 @@ a, a:active, a:hover, a:visited {
   background-color: transparent;
   position: fixed;
   top: 32px;
-  width: 100%;
-  z-index: 1; }
-  .language-switcher-language-url ul {
-    margin: 0;
-    display: grid; }
-    .language-switcher-language-url ul li {
-      list-style-type: none; }
-      .language-switcher-language-url ul li a {
-        color: #fff;
-        float: right; }
+  width: 15%;
+  margin-left: 81%;
+  z-index: 15; }
+
+.lang-dropdown-select-element ul {
+  margin: 0;
+  display: grid; }
+  .lang-dropdown-select-element ul li {
+    list-style-type: none; }
+    .lang-dropdown-select-element ul li a {
+      color: #fff;
+      float: right; }
+
+#block-languagedropdownswitcher form {
+  margin-left: 83.5%;
+  padding: 0;
+  background-color: transparent;
+  position: fixed;
+  top: 32px;
+  width: 15%;
+  z-index: 15; }
+  #block-languagedropdownswitcher form select {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 30px; }
+    #block-languagedropdownswitcher form select option {
+      color: #000;
+      background: #fff; }

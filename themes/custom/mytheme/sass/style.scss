@@ -26,7 +26,7 @@ body{
 
 .content{
     position: relative;
-    width: 70%;
+    width: 100%;
     margin: 45px;
 
     & #block-mytheme-local-tasks ul{
@@ -80,6 +80,9 @@ body{
 
 .views-element-container h2{
     text-align: center;
+    position: relative; 
+font-weight: 500;
+margin-bottom: 25px;  
 }
 
 .contextual{
@@ -90,6 +93,7 @@ body{
     color: #000;
     width: 100%;
     text-align: center;
+    margin-bottom: 46px;
 }
 
 .views-view-grid .views-row {
@@ -103,7 +107,7 @@ body{
     & .views-field-field-image:before{ 
         position: absolute; 
     width: 24.2%;
-    height: 253px;
+    height: 256px;
     background: #000;
     content: "";
     opacity: 0;
@@ -116,18 +120,13 @@ body{
         }
     
 
-    & .views-field-title span p{
-        color: #000;
-        font-size: 18px;
-        font-weight: bold;
-    } 
-
     & .views-field{
         padding: 0 10px;
         margin-bottom: 10px;
 
         & .vote-widget--like-and-dislike{
             margin-top: 15px;
+            margin-bottom: 15px;
         }
     }
 
@@ -171,10 +170,37 @@ body{
 }
 }
 
+.views-field-title span p{
+    color: #000;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+.views-field-body .field-content p{
+    margin: 10px 0;
+    height: 100px;
+}
+
 #block-mytheme-views-block-recent-blogs-block-1 h2{
     color: #000;
     background: none;
     height: 40px;
     width: 100%;
     font-weight: bold;
+}
+ 
+
+
+
+@media (max-width: 320px) {
+    .content {
+        margin: 0px;
+        padding: 10px;
+        width: 94.5%;
+    }
+
+    .views-view-grid .views-row {
+        display: inline-block;
+    }
 }

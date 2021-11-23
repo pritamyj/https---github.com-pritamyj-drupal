@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1965720f7d07ab01f1d8abc1a3101631ad8adf01',
+        'reference' => 'fa5c9ea6b675a980bc96c12449f8183312fcfb0d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -703,6 +703,15 @@
                 0 => '9.2.7',
             ),
         ),
+        'drupal/lang_dropdown' => array(
+            'pretty_version' => '2.0.0-beta4',
+            'version' => '2.0.0.0-beta4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/lang_dropdown',
+            'aliases' => array(),
+            'reference' => '8.x-2.0-beta4',
+            'dev_requirement' => false,
+        ),
         'drupal/language' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -727,7 +736,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1965720f7d07ab01f1d8abc1a3101631ad8adf01',
+            'reference' => 'fa5c9ea6b675a980bc96c12449f8183312fcfb0d',
             'dev_requirement' => false,
         ),
         'drupal/like_and_dislike' => array(
@@ -906,6 +915,15 @@
             'replaced' => array(
                 0 => '9.2.7',
             ),
+        ),
+        'drupal/semanticviews' => array(
+            'pretty_version' => '2.3.0',
+            'version' => '2.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/semanticviews',
+            'aliases' => array(),
+            'reference' => '8.x-2.3',
+            'dev_requirement' => false,
         ),
         'drupal/serialization' => array(
             'dev_requirement' => false,

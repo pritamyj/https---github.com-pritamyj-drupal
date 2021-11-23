@@ -17,18 +17,6 @@
   border-radius: 30px;
   width: 400px; }
 
-.form-item {
-  width: 400px; }
-
-.views-exposed-form {
-  margin-bottom: 25px; }
-
-.js-form-item {
-  margin: 5px 0; }
-
-.form-select {
-  appearance: none; }
-
 .webform-button--submit, #edit-submit-recent-blogs, .form-submit {
   background: #607d8b;
   border: none;
@@ -36,7 +24,7 @@
   font-weight: 500;
   outline: none;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   display: inline-block;
   letter-spacing: 1px;
   font-size: 16px;
@@ -44,7 +32,8 @@
   border-radius: 30px; }
 
 #edit-select-for-contact, .form-select {
-  width: 440px; }
+  width: 440px;
+  margin-bottom: 10px; }
 
 form {
   padding: 0 32%; }
@@ -55,3 +44,112 @@ form {
 #block-mytheme-page-title h1 {
   width: 100%;
   text-align: center; }
+
+.js-form-item-created, .js-form-item-select-for-contact, .js-form-item-lang-dropdown-select {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  float: left; }
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+  display: none; }
+
+.js-form-item-created:after, .js-form-item-select-for-contact:after, .js-form-item-lang-dropdown-select:after {
+  content: '\25b6';
+  font: 17px "Consolas", monospace;
+  color: #607d8b;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 20px;
+  /*Adjust for position however you want*/
+  top: 10px;
+  /*left line */
+  position: absolute;
+  pointer-events: none; }
+
+.js-form-item-created select, .js-form-item-select-for-contact select, .js-form-item-lang-dropdown-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  display: block;
+  font-size: 16px; }
+
+.js-form-item-lang-dropdown-select::after {
+  color: #fff; }
+
+.webform-submission-form .form-item-select-for-contact::after {
+  top: 34px; }
+
+.webform-flex--container > .form-item > input:not([type="checkbox"]), .webform-flex--container > .form-item > select {
+  width: 400px; }
+
+@media (max-width: 768px) {
+  .content {
+    margin: 10px; }
+  form {
+    padding: 0 21%; }
+  .form-submit {
+    margin-bottom: 30px; }
+  #block-mytheme-page-title h1 {
+    border-bottom: 2.7px solid #ff4584;
+    font-size: 25px;
+    margin-top: 40px; } }
+
+@media (max-width: 425px) {
+  .content {
+    width: 95%; }
+  form {
+    padding: 0 2%; }
+  .webform-flex--container > .form-item > input:not([type="checkbox"]), .webform-flex--container > .form-item > select {
+    width: 348px; }
+  #edit-select-for-contact, .form-select {
+    width: 390px; }
+  .webform-flex--container > .form-item > input:not([type="checkbox"]), .webform-flex--container > .form-item > select {
+    width: 300px;
+    margin-left: 0; }
+  #edit-select-for-contact, .form-select {
+    width: 342px;
+    margin-left: 25px; }
+  .js-webform-flexbox {
+    margin-left: 25px; }
+  .js-form-required {
+    margin-left: 25px; }
+  .form-text, .form-select, .form-email, .form-textarea {
+    width: 300px;
+    margin-left: 25px; } }
+
+@media (max-width: 375px) {
+  .js-webform-flexbox, .js-form-required {
+    margin-left: 0; }
+  #edit-select-for-contact, .form-select {
+    margin-left: 0; }
+  .webform-flex--container > .form-item > input:not([type="checkbox"]), .webform-flex--container > .form-item > select {
+    width: 300px;
+    margin-left: 0; }
+  .form-text, .form-select, .form-email, .form-textarea {
+    width: 300px;
+    margin-left: 0; } }
+
+@media (max-width: 320px) {
+  .content {
+    width: 92%;
+    margin: 0; }
+  form {
+    padding: 0 2%; }
+  .js-form-item-search .form-text, .form-email, .form-textarea {
+    width: 242px; }
+  .js-form-item-created .form-select {
+    width: 292px; }
+  .webform-flex--container > .form-item > input:not([type="checkbox"]), .webform-flex--container > .form-item > select {
+    width: 243px;
+    margin-left: 0; }
+  #edit-select-for-contact, .form-select {
+    width: 285px; }
+  .form-text, .form-select, .form-email, .form-textarea {
+    padding: 7px 20px;
+    margin-left: 0; }
+  .form-submit {
+    margin-bottom: 30px; } }
