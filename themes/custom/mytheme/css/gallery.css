@@ -1,0 +1,22 @@
+.views-element-container > div:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .views-element-container > div:first-child .views-row {
+    width: 350px;
+    margin: 8px 0; }
+
+@media (max-width: 1440px) {
+  .views-element-container > div:first-child {
+    justify-content: flex-start; }
+    .views-element-container > div:first-child .views-row {
+      margin: 20px 23px; } }
+
+@media (max-width: 768px) {
+  .views-element-container > div:first-child .views-row {
+    width: 327.5px;
+    margin: 20px 23px; } }
+
+@media (max-width: 425px) {
+  .views-element-container > div:first-child .views-row {
+    width: 100%; } }

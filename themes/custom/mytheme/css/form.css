@@ -47,10 +47,8 @@ form {
 
 .js-form-item-created, .js-form-item-select-for-contact, .js-form-item-lang-dropdown-select {
   position: relative;
-  /*Don't really need this just for demo styling*/
   float: left; }
 
-/* IE11 hide native button (thanks Matt!) */
 select::-ms-expand {
   display: none; }
 
@@ -63,9 +61,7 @@ select::-ms-expand {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   right: 20px;
-  /*Adjust for position however you want*/
   top: 10px;
-  /*left line */
   position: absolute;
   pointer-events: none; }
 
@@ -119,7 +115,9 @@ select::-ms-expand {
     margin-left: 25px; }
   .form-text, .form-select, .form-email, .form-textarea {
     width: 300px;
-    margin-left: 25px; } }
+    margin-left: 25px; }
+  .js-form-item-name .js-form-required {
+    margin-left: 0; } }
 
 @media (max-width: 375px) {
   .js-webform-flexbox, .js-form-required {
@@ -135,7 +133,7 @@ select::-ms-expand {
 
 @media (max-width: 320px) {
   .content {
-    width: 92%;
+    width: 93.8%;
     margin: 0; }
   form {
     padding: 0 2%; }

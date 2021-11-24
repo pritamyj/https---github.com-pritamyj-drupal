@@ -4,6 +4,7 @@ styling:
     theme:
       css/style.css: {}
       css/header.css: {}
+      css/gallery.css: {}
       css/form.css: {}
       css/footer.css: {}
 

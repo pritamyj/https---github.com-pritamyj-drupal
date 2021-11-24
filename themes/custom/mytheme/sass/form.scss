@@ -20,22 +20,6 @@ border: 1px solid #607d8b;
     width: 400px;
  
 }
-
-// .js-form-item{
-//     position: relative;
-// }
-
-// .js-form-item select{
-//     appearance: none;
-// }
-
-// .js-form-item::after{
-//     content: "\25b6";
-//     position: absolute;
-//     top: 0;
-//     right: 25px;
-// }
-
  
  
 
@@ -73,30 +57,14 @@ form{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
  
   
   .js-form-item-created, .js-form-item-select-for-contact, .js-form-item-lang-dropdown-select{
-    position: relative;
-    /*Don't really need this just for demo styling*/
+    position: relative; 
     
-    float: left;
-    // min-width: 200px;
-    // margin: 50px 33%;
+    float: left; 
   }
-  
-  /* IE11 hide native button (thanks Matt!) */
+   
   select::-ms-expand {
   display: none;
   }
@@ -111,13 +79,9 @@ form{
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    right: 20px;
-    /*Adjust for position however you want*/
+    right: 20px; 
     
-    top: 10px;
-    // padding: 0 10px 2px;
-    // border-bottom: 1px solid #999;
-    /*left line */
+    top: 10px; 
 
     position: absolute;
     pointer-events: none;
@@ -132,21 +96,8 @@ form{
     appearance: none;
     /* Add some styling */
     
-    display: block;
-    // width: 100%;
-    // max-width: 320px;
-    // height: 50px;
-    // float: right;
-    // margin: 5px 0px;
-    // padding: 0px 24px;
-    font-size: 16px;
-    // line-height: 1.75;
-    // color: #333;
-    // background-color: #ffffff;
-    // background-image: none;
-    // border: 1px solid #cccccc;
-    // -ms-word-break: normal;
-    // word-break: normal;
+    display: block; 
+    font-size: 16px; 
   }
 }
 
@@ -221,6 +172,10 @@ form {
             width: 300px;
             margin-left: 25px;
     }
+
+    .js-form-item-name .js-form-required{
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 375px) {
@@ -246,7 +201,7 @@ form {
 @media (max-width: 320px) {
 
     .content{
-        width: 92%;
+        width: 93.8%;
         margin: 0;
     }
 
