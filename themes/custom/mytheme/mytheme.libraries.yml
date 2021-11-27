@@ -2,13 +2,14 @@ styling:
   version: VERSION
   css:
     theme:
+      css/header.css: {} 
       css/style.css: {}
-      css/header.css: {}
-      css/gallery.css: {}
       css/form.css: {}
+      css/view.css: {}
       css/footer.css: {}
 
-  js:
-    js/navbar.js: {}
+  js: 
+    js/navbarscroll.js: {} 
+    js/menu.js: {} 
   dependencies:
     - core/jquery

@@ -1,0 +1,42 @@
+.sidebar > div:first-child{
+    width: 82%;
+    margin: 10px;
+    // margin-left: 20px;
+
+    & .views_slideshow_cycle_slide .views-row{
+        width: 110%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sidebar > div:first-child{
+        width: 82%; 
+    }
+}
+
+@media (max-width: 425px) {
+    .sidebar > div:first-child .views_slideshow_cycle_slide .views-row {
+        width: 100%;
+    }
+    .sidebar > div:first-child{
+        width: 95.5%; 
+        height: 600px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .sidebar > div:first-child{
+        width: 95%; 
+        height: 550px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .sidebar > div:first-child{
+        width: 93.5%; 
+        height: 500px;
+    }
+}

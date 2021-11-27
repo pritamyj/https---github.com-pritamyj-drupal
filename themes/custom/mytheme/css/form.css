@@ -1,7 +1,8 @@
 #block-mytheme-page-title h1 {
   color: #607d8b;
   border-bottom: 4px solid #ff4584;
-  width: 182px; }
+  width: 182px;
+  margin-top: 50px; }
 
 .form-text, .form-select, .form-email, .form-textarea {
   background: transparent;
@@ -69,7 +70,6 @@ select::-ms-expand {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  /* Add some styling */
   display: block;
   font-size: 16px; }
 
@@ -84,7 +84,8 @@ select::-ms-expand {
 
 @media (max-width: 768px) {
   .content {
-    margin: 10px; }
+    margin: 10px;
+    margin-top: 50px; }
   form {
     padding: 0 21%; }
   .form-submit {
@@ -113,10 +114,16 @@ select::-ms-expand {
     margin-left: 25px; }
   .js-form-required {
     margin-left: 25px; }
-  .form-text, .form-select, .form-email, .form-textarea {
+  .form-text, .form-select, .form-email, .form-textarea, .text-count-message, .description {
     width: 300px;
     margin-left: 25px; }
   .js-form-item-name .js-form-required {
+    margin-left: 0; }
+  #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child form .form-select {
+    width: 361px;
+    margin-left: 0; }
+  #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child form .form-text {
+    width: 320px;
     margin-left: 0; } }
 
 @media (max-width: 375px) {
@@ -129,12 +136,17 @@ select::-ms-expand {
     margin-left: 0; }
   .form-text, .form-select, .form-email, .form-textarea {
     width: 300px;
-    margin-left: 0; } }
+    margin-left: 0; }
+  #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child form .form-select {
+    width: 311px; }
+  #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child form .form-text {
+    width: 270px; } }
 
 @media (max-width: 320px) {
   .content {
-    width: 93.8%;
-    margin: 0; }
+    width: 92%;
+    margin: 12px;
+    margin-top: 50px; }
   form {
     padding: 0 2%; }
   .js-form-item-search .form-text, .form-email, .form-textarea {
@@ -150,4 +162,8 @@ select::-ms-expand {
     padding: 7px 20px;
     margin-left: 0; }
   .form-submit {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child form .form-select {
+    width: 256px; }
+  #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child form .form-text {
+    width: 215px; } }

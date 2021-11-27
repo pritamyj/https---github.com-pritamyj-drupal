@@ -8,14 +8,17 @@
 
 @media (max-width: 1440px) {
   .views-element-container > div:first-child {
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    margin-left: 40px; }
     .views-element-container > div:first-child .views-row {
       margin: 20px 23px; } }
 
 @media (max-width: 768px) {
-  .views-element-container > div:first-child .views-row {
-    width: 327.5px;
-    margin: 20px 23px; } }
+  .views-element-container > div:first-child {
+    margin-left: 0; }
+    .views-element-container > div:first-child .views-row {
+      width: 327.5px;
+      margin: 20px 23px; } }
 
 @media (max-width: 425px) {
   .views-element-container > div:first-child .views-row {

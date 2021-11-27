@@ -2,7 +2,7 @@ a, a:active, a:hover, a:visited {
   text-decoration: none;
   counter-reset: #000; }
 
-#block-mytheme-main-menu {
+.menu nav {
   background-color: transparent;
   background-image: linear-gradient(transparent, transparent);
   padding: 27px 0px;
@@ -11,27 +11,28 @@ a, a:active, a:hover, a:visited {
   top: 0px;
   width: 100%;
   transition: all 0.5s ease-in-out; }
-  #block-mytheme-main-menu ul {
-    margin-top: 2px;
-    z-index: 1;
-    width: 91%;
+
+ul.menu {
+  margin-top: 2px;
+  z-index: 1;
+  width: 91%;
+  text-align: center;
+  display: inline-block; }
+  ul.menu li {
+    padding: 10px;
+    width: 13%;
+    display: inline-block;
+    position: relative;
     text-align: center;
-    display: inline-block; }
-    #block-mytheme-main-menu ul li {
-      padding: 10px;
-      width: 13%;
-      display: inline-block;
-      position: relative;
-      text-align: center;
-      font-size: 20px;
-      text-decoration: none;
-      color: #fff;
-      text-transform: uppercase; }
-    #block-mytheme-main-menu ul a {
-      color: #fff; }
-      #block-mytheme-main-menu ul a:hover {
-        font-size: 23px;
-        transition: 500ms; }
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; }
+  ul.menu a {
+    color: #fff; }
+    ul.menu a:hover {
+      font-size: 23px;
+      transition: 500ms; }
 
 .heading {
   color: #fff;
@@ -106,3 +107,7 @@ a, a:active, a:hover, a:visited {
     #block-languagedropdownswitcher form select option {
       color: #000;
       background: #fff; }
+
+@media (max-width: 320px) {
+  .heading h1 {
+    margin-left: 60px; } }

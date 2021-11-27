@@ -1,0 +1,1 @@
+function myFunction(){document.getElementById("hamburger");document.querySelector("ul.menu").classList.toggle("show")}
