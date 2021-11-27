@@ -9,9 +9,13 @@
 {{ attach_library('mytheme/navbar') }}
 
     <header class="header"> 
+    <button class="hamburger" id="hamburger" onclick="myFunction()">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span></button>
         {{ page.header }} 
         <nav class="menu">
-          <button class="hamburger" id="hamburger" onclick="myFunction()">Try it</button>
+          
             {{ page.menu }}  
         </nav> 
         <div class="heading"> 

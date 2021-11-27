@@ -1,11 +1,18 @@
+  
+  var x = window.matchMedia("(max-width: 768px)") ;
+  x.addListener(myFun) ;// Attach listener function on state changes
+  
+  function myFun(x) {
+    if (x.matches) { // If media query matches
+      document.querySelector("select.lang-dropdown-select-element").style.width = "115px";
+    } 
+    else {
+        document.querySelector("select.lang-dropdown-select-element").style.width = "165px";
+    }
+}
+myFun(x); 
  
-// var humburger = document.getElementById('hamburger');
-
-// hamburger.addEventListener('click', () => {
-//     // document.querySelector("ul.menu").classList.toggle('show');
-//     document.querySelector("ul.menu").style.display = 'grid';
-
-// });
+  
 
 
 

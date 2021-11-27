@@ -81,6 +81,26 @@ body {
   width: 100%;
   font-weight: bold; }
 
+.icon-bar {
+  background-color: #fff;
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 8px; }
+
+.hamburger {
+  display: none;
+  position: fixed;
+  width: 60px;
+  height: 45px;
+  margin-top: 27px;
+  margin-bottom: 0px;
+  background: transparent;
+  border: 1.5px solid;
+  border-color: #fff;
+  margin-left: 348px;
+  z-index: 1; }
+
 @media (max-width: 1440px) {
   #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child, .views-element-container > div:first-child {
     width: 100%;
@@ -163,9 +183,6 @@ body {
   #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row, .views-element-container > div:first-child .views-row {
     width: 280px; } }
 
-.hamburger {
-  display: none; }
-
 @media (max-width: 425px) {
   .hamburger {
     display: block; }
@@ -173,16 +190,31 @@ body {
     display: none;
     list-style: none;
     font-size: 18px;
-    background: cadetblue;
-    top: 55px;
-    height: 11rem;
+    background-color: rgba(1, 1, 1, 0.5);
+    top: 90px;
+    margin-top: 70px;
     right: 0%;
-    width: 100%;
+    width: 425px;
     bottom: 68%;
-    text-align: center;
-    position: fixed; } }
+    text-align: center; }
+  ul.show {
+    display: block;
+    padding-left: 0;
+    transition: all 0.5s ease-in-out; }
+    ul.show li {
+      width: 405px;
+      display: block; } }
 
-ul.show {
-  display: block; }
+@media (max-width: 375px) {
+  .hamburger {
+    margin-left: 295px; }
   ul.show li {
-    display: block; }
+    width: 355px; } }
+
+@media (max-width: 320px) {
+  .hamburger {
+    margin-left: 240px; }
+  ul.menu {
+    width: 320px; }
+  ul.show li {
+    width: 300px; } }
