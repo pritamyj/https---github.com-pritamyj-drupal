@@ -3,35 +3,54 @@ a, a:active, a:hover, a:visited{
     counter-reset: #000;
 }
 
-.menu nav{
-    background-color: transparent;
-    background-image: linear-gradient(transparent, transparent );
-    padding: 27px 0px;
-    z-index: 10;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    transition: all 0.5s ease-in-out;
+.menu{
 
+    nav{
+        background-color: transparent;
+        background-image: linear-gradient(transparent, transparent );
+        padding: 27px 0px;
+        z-index: 10;
+        width: 91.5%;
+        position: fixed;
+        top: 0px; 
+        transition: all 0.5s ease-in-out; 
+    }
+
+    #block-mytheme-main-menu{
+        width: 1008px;
+    }
+
+    #block-useraccountmenu{
+        width: 432px;
+        margin-left: 70%;
+
+        ul {
+            // width: 30%;
+            margin-right: 200px;
+            & li{ 
+            float: left;
+            }
+        }
+    }
 }
 
 
 
 
 ul.menu{ 
-    margin-top:2px;            
+    margin-top:1px;            
     z-index: 1;
-    width: 91%;
+    width: 100%;
     text-align: center;
     display: inline-block;
 
 & li{
     padding: 10px;
-    width: 13%;
+    width: 130px;
     display: inline-block;
     position: relative;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: #fff; 
     text-transform: uppercase;
@@ -41,12 +60,25 @@ ul.menu{
     color: #fff;
 
     &:hover{ 
-        font-size: 23px;
+        font-size: 20px;
         transition: 500ms;
     } 
 }
 } 
 
+header {
+  .logo {
+    grid-area: logo;
+  }
+
+  .nav {
+    grid-area: nav;
+  }
+
+  .user {
+    grid-area: user;
+  }
+}
 
 
 
@@ -132,7 +164,7 @@ ul.menu{
 
 
 #block-languagedropdownswitcher form{
-    margin-left: 83.5%;
+    margin-left: 85.5%;
     padding: 0;
     background-color:transparent;
     position : fixed;
@@ -157,12 +189,23 @@ ul.menu{
 } 
 
 @media (max-width: 768px) { 
+    ul.menu{
+        margin-top: 7px;
+        margin-left: -25px;
+
+        & li{
+            padding: 6px;
+            width: 14%;
+            font-size: 16px;    
+        }
+    }
+
     #block-mytheme-branding{ 
         width: 768px;
     }
 
     #block-languagedropdownswitcher form{
-        margin-left: 80%;
+        margin-left: 78%;
 
         & select{
             width: 768px;
@@ -172,12 +215,23 @@ ul.menu{
 }
 
 @media (max-width: 425px) { 
+    ul.menu{
+        margin-top: 2px;
+        margin-left: 0;
+
+        & li{
+            padding: 10px;
+            width: 13%;
+            font-size: 20px;    
+        }
+    }
+
     #block-mytheme-branding{ 
         width: 425px;
     }
 
     #block-languagedropdownswitcher form{
-        margin-left: 24%; 
+        margin-left: 29.5%; 
 
         & select{
             width: 768px;
@@ -191,7 +245,7 @@ ul.menu{
     } 
 
     #block-languagedropdownswitcher form{
-        margin-left: 27%; 
+        margin-left: 33.5%; 
     }  
 }
 
@@ -203,4 +257,8 @@ ul.menu{
     .heading h1 {
         margin-left: 60px;
     }
+
+    #block-languagedropdownswitcher form{
+        margin-left: 30.79%; 
+    }  
 }

@@ -13,7 +13,8 @@ regions:
   header: Header
   menu: Main Menu
   content: Content
-  sidebar: sidebar 
+  sidebar_left: sidebar_left
+  sidebar_right: sidebar_right 
   footer_first: Footer First
   footer_second: Footer Second
   footer_third: Footer Third

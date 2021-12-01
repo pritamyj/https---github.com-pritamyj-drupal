@@ -40,6 +40,10 @@ border: 1px solid #607d8b;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 30px;
+
+    &:hover{
+        background: #bd4f6c;
+    }
 }
 
 #edit-select-for-contact , .form-select{
@@ -49,6 +53,11 @@ border: 1px solid #607d8b;
 
 form{
     padding: 0 32%;
+
+    & .description{
+        font-size: 14px;
+        color: gray;
+    }
 }
 
 .form-actions{

@@ -24,14 +24,23 @@
     </header> 
 
     <main class="main"> 
+
+        {% if page.sidebar_left %}
+        <div class="sidebar_left"> 
+            {{ page.sidebar_left }}
+        </div> 
+        {% endif %} 
+
         <div class="content">
             {{ page.content }}
         </div> 
-        {% if page.sidebar %}
-        <div class="sidebar"> 
-            {{ page.sidebar }}
+
+        {% if page.sidebar_right %}
+        <div class="sidebar_right"> 
+            {{ page.sidebar_right }}
         </div> 
         {% endif %} 
+        
     </main>
 
     <footer aria-label="Site footer" class="footer" id="footer" role="contentinfo">

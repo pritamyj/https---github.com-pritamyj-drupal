@@ -31,6 +31,8 @@
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 30px; }
+  .webform-button--submit:hover, #edit-submit-recent-blogs:hover, .form-submit:hover {
+    background: #bd4f6c; }
 
 #edit-select-for-contact, .form-select {
   width: 440px;
@@ -38,6 +40,9 @@
 
 form {
   padding: 0 32%; }
+  form .description {
+    font-size: 14px;
+    color: gray; }
 
 .form-actions {
   text-align: center; }

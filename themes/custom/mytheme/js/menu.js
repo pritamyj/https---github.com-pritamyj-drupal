@@ -4,7 +4,7 @@
   
   function myFun(x) {
     if (x.matches) { // If media query matches
-      document.querySelector("select.lang-dropdown-select-element").style.width = "115px";
+      document.querySelector("select.lang-dropdown-select-element").style.width = "125px";
     } 
     else {
         document.querySelector("select.lang-dropdown-select-element").style.width = "165px";

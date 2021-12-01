@@ -1,0 +1,11 @@
+.user-login-form {
+  padding: 0 17%; }
+
+#block-mytheme-local-tasks ul {
+  justify-content: space-between; }
+  #block-mytheme-local-tasks ul li a {
+    color: #607d8b;
+    font-weight: 500;
+    font-size: 18px; }
+    #block-mytheme-local-tasks ul li a:hover {
+      color: black; }

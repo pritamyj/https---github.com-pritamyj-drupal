@@ -111,11 +111,12 @@ body {
       width: 24.1%;
       margin: 5px;
       margin-left: 0;
-      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); }
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+      position: relative; }
       #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-field-image::before, .views-element-container > div:first-child .views-row .views-field-field-image::before {
         position: absolute;
-        width: 24.1%;
-        height: 268px;
+        width: 100%;
+        height: 266px;
         background: #000;
         content: "";
         opacity: 0;
@@ -129,6 +130,20 @@ body {
       #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-title, #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-body, #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-uid-1, #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-uid, #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-created, #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-like-and-dislike, #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-view-node, .views-element-container > div:first-child .views-row .views-field-title, .views-element-container > div:first-child .views-row .views-field-body, .views-element-container > div:first-child .views-row .views-field-uid-1, .views-element-container > div:first-child .views-row .views-field-uid, .views-element-container > div:first-child .views-row .views-field-created, .views-element-container > div:first-child .views-row .views-field-like-and-dislike, .views-element-container > div:first-child .views-row .views-field-view-node {
         padding: 0 10px;
         margin-bottom: 10px; }
+      #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-created, .views-element-container > div:first-child .views-row .views-field-created {
+        background: #bd4f6c none repeat scroll 0 0;
+        height: 50px;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 50px;
+        padding: 10px 10px 8px 10px; }
+        #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .views-field-created span, .views-element-container > div:first-child .views-row .views-field-created span {
+          display: block;
+          color: #fff;
+          font-weight: 700;
+          font-size: 16px; }
       #block-mytheme-views-block-recent-blogs-block-1 > div > div:first-child .views-row .vote-widget--like-and-dislike, .views-element-container > div:first-child .views-row .vote-widget--like-and-dislike {
         margin-top: 15px;
         margin-bottom: 15px; }
