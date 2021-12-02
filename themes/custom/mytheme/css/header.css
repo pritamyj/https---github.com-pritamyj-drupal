@@ -61,7 +61,6 @@ header .user {
   text-align: center;
   padding-top: 50px; }
   .heading h1 {
-    margin: 0 25%;
     color: #fff;
     margin-top: -400px; }
 
@@ -85,9 +84,6 @@ header .user {
       height: 65px;
       overflow: hidden;
       margin: 15px 15px 10px 12px; }
-
-#block-banner1 {
-  margin-top: 0; }
 
 #block-mytheme-breadcrumbs {
   display: none; }
@@ -168,7 +164,5 @@ header .user {
 @media (max-width: 320px) {
   #block-mytheme-branding {
     width: 320px; }
-  .heading h1 {
-    margin-left: 60px; }
   #block-languagedropdownswitcher form {
     margin-left: 30.79%; } }

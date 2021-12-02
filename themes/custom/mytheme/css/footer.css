@@ -15,15 +15,21 @@
   margin-bottom: 65px;
   color: #b3b3b3; }
   .footer--top #block-mainnavigation ul {
-    list-style-type: none; }
+    list-style-type: none;
+    padding-left: 20px;
+    display: grid; }
     .footer--top #block-mainnavigation ul li {
-      margin-bottom: 10px; }
+      text-align: center;
+      margin-left: 10px;
+      text-align: center;
+      padding-bottom: 5px; }
       .footer--top #block-mainnavigation ul li a {
         color: #b3b3b3;
         text-transform: uppercase; }
         .footer--top #block-mainnavigation ul li a:hover {
           transition: 500ms;
-          text-decoration: underline; }
+          text-decoration: underline;
+          font-size: 18px; }
   .footer--top div {
     width: 100%; }
 
@@ -78,7 +84,7 @@
 
 #block-poweredbydrupal {
   padding: 10px;
-  padding-left: 20px;
+  padding-left: 0px;
   margin: -45px;
   text-align: center;
   background: #181818; }
@@ -100,7 +106,9 @@
     display: inline-block;
     width: 728px; }
     .footer--top #block-mainnavigation ul {
-      padding-left: 0; }
+      padding-left: 10px; }
+      .footer--top #block-mainnavigation ul li {
+        text-align: left; }
   #block-footer1 {
     width: 728px; }
   #block-mainnavigation-menu {
@@ -114,10 +122,19 @@
   .footer--top {
     display: inline-block;
     width: 385px; }
+    .footer--top #block-mainnavigation ul {
+      padding-left: 0;
+      background: none; }
+      .footer--top #block-mainnavigation ul li {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: left;
+        width: 200px;
+        font-size: 16px; }
   #block-footer1 {
     width: 385px; }
   #block-poweredbydrupal {
-    width: 430px; } }
+    width: 450px; } }
 
 @media (max-width: 375px) {
   .footer {
@@ -128,7 +145,7 @@
   #block-footer1 {
     width: 335px; }
   #block-poweredbydrupal {
-    width: 380px; } }
+    width: 400px; } }
 
 @media (max-width: 320px) {
   .footer {
@@ -139,4 +156,4 @@
   #block-footer1 {
     width: 280px; }
   #block-poweredbydrupal {
-    width: 325px; } }
+    width: 345px; } }

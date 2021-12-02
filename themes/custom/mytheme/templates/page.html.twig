@@ -18,9 +18,23 @@
           
             {{ page.menu }}  
         </nav> 
+
+        {% if logged_in %}
+        {% if is_front %}
+        
+        <div class="heading"> 
+            <h1>Welcome {{ user_logged_in_name }}</h1> 
+        </div> 
+
+        
+        {% endif %} 
+        {% else %} 
+
         <div class="heading"> 
             <h1>{{ site_name }}</h1> 
         </div> 
+
+        {% endif %} 
     </header> 
 
     <main class="main"> 
@@ -32,7 +46,9 @@
         {% endif %} 
 
         <div class="content">
+  
             {{ page.content }}
+ 
         </div> 
 
         {% if page.sidebar_right %}

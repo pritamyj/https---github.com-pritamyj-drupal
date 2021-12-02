@@ -72,32 +72,25 @@
 #}
 
 
-<article>
+<article class="article">
 
-  {{ title_prefix }}
-  {% if not page %}
-    <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-    </h2>
-  {% endif %}
-  {{ title_suffix }}
-
-  
   <div> 
-  
-  {#/*{{ content.field_image }} 
-  {{ label }}
-  {{ comments }}
-  {{ title }}*/#}
 
-        {% trans %}
-        <div class="node_author_published">
-        <div class="author">Author: {{ author_name }}</div>
-        <div class="published_on">Published on: {{ date }}</div>
-        </div>
-        {% endtrans %}
+  {{ content.field_image }}  
+  <div class="article_title">
+    {{ node.title.value }}
+    </div>  
+  {{ content.body.0 }}  
+
+  {% trans %}
+    <div class="node_author_published">
+      <div class="author">Author: {{ author_name }}</div>
+      <div class="published_on">Published on: {{ date }}</div>
+    </div>
+  {% endtrans %}
        
-    {{ content }}
+  {{ content|without('field_image', 'body') }}
+  
   </div>
 
 </article>

@@ -4,10 +4,11 @@ styling:
     theme:
       css/header.css: {} 
       css/style.css: {}
-      css/form.css: {}
-      css/node.css: {}
+      css/form.css: {} 
       css/login.css: {}
+      css/node.css: {}
       css/sidebar_left.css: {}
+      css/user_details.css: {}
       css/footer.css: {}
 
   js: 

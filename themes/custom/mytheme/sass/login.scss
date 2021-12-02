@@ -3,9 +3,13 @@
     padding: 0 17%;
 }
 
-#block-mytheme-local-tasks{
+.content #block-mytheme-local-tasks{
     & ul {
         justify-content: space-between;
+        // margin: 270px 0 50px 0;
+        // position: absolute;
+        // padding-left: 0;
+        width: 100%;
 
         & li{ 
             & a{

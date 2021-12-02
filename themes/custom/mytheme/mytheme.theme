@@ -2,4 +2,15 @@
 function mytheme_preprocess_page(&$variables) {
   $config = \Drupal::config('system.site');
   $variables['site_name'] = $config->get('name');
+
+
+  // if user is authenticated
+  if($variables['user']->isAuthenticated()){
+    # gets username
+  $user_logged_in_name = $variables['user']->getDisplayName();
+  # creates value to ouput in the DOM & capitalize first letter
+  $variables['user_logged_in_name'] = ucfirst($user_logged_in_name);
+  }
+  
+# dump($variables); 
 }

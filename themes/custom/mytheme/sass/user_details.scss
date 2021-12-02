@@ -1,0 +1,97 @@
+table{
+    border-collapse: collapse;
+    margin: 35px;
+    margin-top: 90px;
+    width: 100%;
+    font-size: 20px;
+
+    tr{
+        border-bottom: 1px solid gray;
+        margin: 10px ;
+
+        th, td{
+            padding: 10px;
+            height: 50px;
+            text-align: center;
+
+            & a{
+                color: #000;
+            }
+
+            &.views-field-edit-user{
+                margin: 4pxpx;
+                // font-size: 20px;
+                padding: 2px; 
+
+                & a{
+                    color: #b7337c;
+                    text-decoration: none;
+                    padding: 5px 25px;
+                    border-radius: 5px;
+                    background: gainsboro;
+
+                    &:hover{
+                        color: #fff;
+                        background: rgba(0, 0, 0, 0.7);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.user-details, .my-blogs{
+
+    header{
+
+    width: 100vw;
+    
+    & a h3{
+        text-align: center;
+        width: 120px;
+        color: #000;
+        margin: 10px auto;
+        padding: 10px 100px;
+        background: transparent;
+        border-radius: 5px;
+        border: 2px solid;
+        margin-top: -25%;
+    
+    &:hover{
+        background: rgba(1,1,1,0.5);
+    }
+    }
+}
+}
+
+.my-blogs{
+    margin-top: 400px;
+}
+
+// .my-blogs header{
+//     width: 100vw;
+//     & a h3{
+//         text-align: center;
+//         width: 120px;
+//         color: #000;
+//         margin: 10px auto;
+//         padding: 10px 100px;
+//         background: transparent;
+//         border-radius: 5px;
+//         border: 2px solid;
+//         margin-top: -20%; 
+// } }
+// 
+
+
+ #block-mytheme-page-title .js-quickedit-page-title{
+    margin-top: -35%;
+    margin-bottom: 270px;
+    border-bottom:none;
+    color: #fff;
+    font-size: 4em;
+}
+
+.user-details header a h3{
+    margin-top: -17%;
+}

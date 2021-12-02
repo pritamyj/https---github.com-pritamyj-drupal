@@ -1,11 +1,11 @@
 .sidebar_left {
   width: 100%;
-  margin-top: 45px; }
+  margin-top: 8px; }
   .sidebar_left::before {
     content: '';
     position: absolute;
     width: 49%;
-    height: 99.9%;
+    height: 98.5%;
     background: linear-gradient(225deg, transparent, #d7816a);
     z-index: 1;
     mix-blend-mode: screen; }
